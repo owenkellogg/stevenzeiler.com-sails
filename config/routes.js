@@ -34,7 +34,13 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+	'/pay': {
+		view: 'pay'
+	},
+	'/contact': {
+		view: 'contact'
+	}
 
   /***************************************************************************
   *                                                                          *

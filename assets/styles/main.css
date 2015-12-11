@@ -9,10 +9,16 @@ body {
     text-align:center;
 }
 
-img {
+img#face {
 	margin-top:1em;
   border-radius: 50%;
   height:150px;
+}
+
+#qrcode img {
+	border-radius: 0;
+	text-align:center;
+	margin: 0 auto;
 }
 
 ul {
@@ -41,4 +47,8 @@ a {
   color: black;
 }
 
+.address {
+	font-size: 100%;
+	padding-bottom: 2em;
+}
 

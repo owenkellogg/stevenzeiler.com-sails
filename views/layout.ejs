@@ -34,12 +34,25 @@
     <link rel="stylesheet" href="/styles/importer.css">
     <link rel="stylesheet" href="/styles/main.css">
     <!--STYLES END-->
+    <script src="/js/dependencies/qrcode.min.js"></script>
   </head>
 
   <body>
-    <%- body %>
 
-
+		<div class='container'>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<h1>Steven Zeiler</h1> 
+					<h6> 
+						Cryptographer, technologist, polyglot,<br/> anarchist and entrepreneur.
+					</h6>
+					<img id="face" src='/images/steven_souls_of_san_francisco_top_hat.jpg'/>
+    			<%- body %>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+		</div>
 
     <!--
         Client-side Templates
@@ -95,6 +108,7 @@
     <script src="/js/dependencies/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script src="/js/dependencies/jquery-1.11.0.min.js"></script>
     <script src="/js/dependencies/bootstrap.min.js"></script>
+    <script src="/js/dependencies/qrcode.min.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
